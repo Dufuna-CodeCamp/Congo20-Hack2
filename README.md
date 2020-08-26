@@ -1,4 +1,4 @@
-# Congo20-Hack2
+# Congo20-Hack2  🚩
 Team Congo 2020, Hackathon 2 Repository
 
 This README explains how to get started with this repository.
