@@ -1,0 +1,132 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+  }
+  /*global*/
+  .container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  ul{
+    margin:0;
+    padding:0;
+  }
+  /*global*/
+  header{
+    background: #543f52;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #d3c7d5 10px solid;
+  
+  }
+  header a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  
+  header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+  }
+  header #branding{
+    float: left;
+  }
+  
+  header #branding h1{
+    margin:0;
+  }
+  header nav{
+    float: right;
+    margin-top: 10px;
+  }
+  
+  /* highlight*/
+  
+  header .light {
+    color: #d3c7d5;
+    font-weight: bold;
+  }
+  header a:hover{
+    color: #e8491d;
+    font-weight: bold;
+  }
+  
+ 
+  .list{
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(243, 233, 238)
+  }
+  
+  .first{
+    float: left;
+    width: 40%;
+    margin: 20px 0 20px 45px;
+    padding: 80px;
+  }
+  
+  .first h1{
+    color: #b6249e;
+    padding: 0px;
+    margin:  0px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .first p{
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .second{
+    float: right;
+    width: 40%;
+    background-color: blueviolet;
+    border: 1px solid: black;
+    border-radius: 20px;
+    margin: 2px 25px 22px 0;
+    padding: 43px;
+  }
+  
+  .second input[type="text"], 
+  .second input[type="email"],
+  .second input[type="number"]{
+    width: 100%;
+    border-radius: 7px;
+    height: 30px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+  }
+  
+  .second label{
+    color: black;
+  }
+  
+  .second button{
+    margin: 0 auto;
+    display: block;
+    width: 25%;
+    background-color: #543f52;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    float: right;
+  }
+  
+
+  footer{
+    padding: 20px;
+    color: white;
+    background-color:  #543f52;
+    text-align: center;
+    margin-top: 20px;
+  }
