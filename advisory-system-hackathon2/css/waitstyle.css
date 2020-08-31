@@ -59,70 +59,56 @@ body{
     color: #e8491d;
     font-weight: bold;
   }
-  
- 
   .list{
-    width: 100%;
-    overflow: hidden;
-    background-color: rgb(243, 233, 238)
-  }
-  
-  .first{
-    float: left;
-    width: 40%;
-    margin: 20px 0 20px 45px;
-    padding: 80px;
-  }
-  
-  .first h1{
-    color: #b6249e;
-    padding: 0px;
-    margin:  0px;
-    font-size: 25px;
-    font-weight: bold;
-  }
-  
-  .first p{
-    padding: 0px;
-    margin: 0px;
-  }
-  
-  .second{
-    float: right;
-    width: 40%;
-    background-color: blueviolet;
-    border: 1px solid: black;
-    border-radius: 20px;
-    margin: 2px 25px 22px 0;
-    padding: 43px;
-  }
-  
-  .second input[type="text"], 
-  .second input[type="email"],
-  .second input[type="number"]{
-    width: 100%;
-    border-radius: 7px;
-    height: 30px;
-    border: 1px solid black;
-    margin-bottom: 10px;
-  }
-  
-  .second label{
-    color: black;
-  }
-  
-  .second button{
-    margin: 0 auto;
-    display: block;
-    width: 25%;
-    background-color: #543f52;
-    color: white;
-    font-weight: bold;
-    padding: 10px;
-    float: right;
-  }
-  
+  width:100%;
+  background-color:#f8f8ff;
+  overflow:hidden;
+}
+.first{
+  float:left;
+  width:40%;
+   margin:20px 0 20px 45px; 
+   padding-top:80px;
+}
+.first h1, h4{
+  color:#543f52;
+  padding:0;
+  margin:0;
+}
+.second{
+  float:right;
+  width:45%;
+  border:2px solid grey;
+  padding:40px;
+  margin:20px 50px 20px 0; 
+  border-radius:20px;
+}
+ .second input[type="text"],
+ .second input[type="email"],
+ .second input[list="career-list"]{
+  width:100%;
+  height:30px;
+  margin-bottom:8px;
+  border-radius:8px;
+  border:2px solid grey;
+}
 
+
+label{
+  color: grey;
+}
+input[type="checkbox"]{
+  margin:10px 0 10px 130px;
+  }
+.second button{
+  margin:0 auto;
+  display:block;
+  padding:10px;
+  width:100px;
+  background-color:#543f52;
+  color:#fff;
+  font-weight:bold;
+}
   footer{
     padding: 20px;
     color: white;
